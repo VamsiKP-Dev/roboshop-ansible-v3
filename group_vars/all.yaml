@@ -5,7 +5,7 @@ RABBITMQ_HOST: rabbitmq-{{ env }}.daws90s.sbs
 CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.daws90s.sbs
 USER_HOST: user-backend-alb-{{ env }}.daws90s.sbs
 CART_HOST: cart-backend-alb-{{ env }}.daws90s.sbs
-SHIPPING_HOST: shipping-backend-alb-{{ env }}.daws90s.sbs
+SHIPPING_HOST: localhost #shipping-backend-alb-{{ env }}.daws90s.sbs
 PAYMENT_HOST: payment-backend-alb-{{ env }}.daws90s.sbs
 mysql_login_user: root
 mysql_root_password: RoboShop@1
